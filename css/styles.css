@@ -1,9 +1,9 @@
-body{
+body {
   font-family: 'Montserrat';
 }
 
 #title {
-  background-color:  #f360aa;
+  background-color: #f360aa;
   color: #fff;
 }
 
@@ -44,11 +44,11 @@ p {
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: 'Montserrat';
@@ -57,7 +57,7 @@ p {
 /* Down Load Buttons */
 
 .download-button {
-  margin: 5% 3% 5% 0 ;
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
@@ -83,15 +83,15 @@ p {
 }
 
 .icon:hover {
-  color:  #f5b8d6;
+  color: #f5b8d6;
 }
 
 /* Testimonial Section */
 
 #testimonials {
-  padding: 7% 15%;
+
   text-align: center;
-  background-color:  #f360aa;
+  background-color: #f360aa;
   color: white;
 }
 
@@ -101,12 +101,16 @@ p {
   margin: 20px;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
 #press {
-  background-color:  #f360aa;
+  background-color: #f360aa;
   text-align: center;
 }
 
 .press-logo {
   width: 15%;
-  margin: 20px 20px 50px 
+  margin: 20px 20px 50px
 }
