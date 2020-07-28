@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  padding: 3% 10% 7%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -76,9 +76,9 @@ p {
 
 #features {
   padding: 7% 15%;
-  background-color: yellow;
   position: relative;
   z-index: 1;
+  background-color: white;
 
 }
 
@@ -137,6 +137,35 @@ p {
   text-align: center;
 }
 
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(none);
+  }
+}
+
 .btn_1{
   margin-top: 56px;
 }
+
+#cta {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f360aa;
+  text-align: center;
+  padding-top: 3rem;
+  color: rgb(243, 236, 236);
+}
+
+#footer {
+  text-align: center;
+}
+
+ .social_icon {
+   margin: 20px 10px;
+ }
+
