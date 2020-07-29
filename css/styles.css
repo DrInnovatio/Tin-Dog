@@ -2,16 +2,6 @@ body {
   font-family: 'Montserrat';
 }
 
-#title {
-  background-color: #f360aa;
-  color: #fff;
-  height: 550px;
-}
-
-.container {
-  padding: 3% 15% 7%;
-}
-
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
@@ -32,6 +22,18 @@ h3 {
 p {
   color: #8f8f8f;
 }
+
+#title {
+  background-color: #f360aa;
+  color: #fff;
+  height: 550px;
+}
+
+.container {
+  padding: 3% 15% 7%;
+}
+
+
 
 /* Navigation Bar */
 
